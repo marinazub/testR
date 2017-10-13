@@ -5,7 +5,10 @@ output: html_document
 
 ```{r}
 a<-rnorm(1000)
-plot(a)
+plot1<-plot(a)
+png("plot1.png", width=480, height=480)
+dev.off()
+
 ```
 
 
